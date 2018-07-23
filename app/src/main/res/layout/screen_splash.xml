@@ -8,20 +8,20 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <TextView
             android:id="@+id/splashTitleTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="224dp"
+            android:layout_centerInParent="true"
             android:text="@string/app_title"
-            tools:layout_editor_absoluteX="163dp"
-            tools:layout_editor_absoluteY="245dp"
             android:textColor="@color/bright_events_green"
-            android:textSize="25sp"/>
+            android:textSize="25sp"
+            tools:layout_editor_absoluteX="163dp"
+            tools:layout_editor_absoluteY="245dp" />
     </RelativeLayout>
 
 
