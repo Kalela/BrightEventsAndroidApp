@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">BrightEventsAndroidApp</string>
+    <string name="app_title">Bright Events</string>
+    <string name="slogan">We handle your event needs.</string>
+    <string name="sign_up_button_text">Get Started</string>
+    <string name="sign_up_title">Sign Up!</string>
+    <string name="email">example@example.com</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="email_title">Email</string>
+    <string name="sign_in_title">Sign In</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

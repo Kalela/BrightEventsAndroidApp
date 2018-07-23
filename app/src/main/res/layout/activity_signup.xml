@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/signUpTitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="18dp"
+            android:text="@string/sign_up_title"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="23dp" />
+
+        <EditText
+            android:id="@+id/signupEmailEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:text="@string/email" />
+
+        <EditText
+            android:id="@+id/signupUsernameEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="169dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/username" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="40dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:text="@string/password"/>
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="104dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:text="@string/password"/>
+
+        <TextView
+            android:id="@+id/signupEmailTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/signupEmailEditText"
+            android:layout_alignStart="@+id/signupEmailEditText"
+            android:text="@string/email_title"
+            android:layout_alignLeft="@+id/signupEmailEditText" />
+
+        <TextView
+            android:id="@+id/signUpUsernameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/signupEmailEditText"
+            android:layout_below="@+id/signupEmailEditText"
+            android:text="@string/username"
+            android:layout_alignLeft="@+id/signupEmailEditText" />
+
+        <TextView
+            android:id="@+id/signupPasswordTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/signupEmailEditText"
+            android:layout_below="@+id/signupUsernameEditText"
+            android:layout_marginTop="-169dp"
+            android:text="@string/password"
+            android:layout_alignLeft="@+id/signupEmailEditText" />
+
+        <TextView
+            android:id="@+id/signumpComfirmPasswordTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editText3"
+            android:layout_alignStart="@+id/signupEmailEditText"
+            android:text="@string/confirm_password"
+            android:layout_alignLeft="@+id/signupEmailEditText" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
