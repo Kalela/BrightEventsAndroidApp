@@ -13,4 +13,8 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_all_events">nav_all_events</string>
+    <string name="nav_my_events">nav_my_events</string>
+    <string name="nav_search">nav_search</string>
+    <string name="nav_profile">nav_profile</string>
 </resources>
