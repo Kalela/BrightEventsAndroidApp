@@ -12,6 +12,6 @@
         android:icon="@drawable/baseline_search_black_24"
         android:title="@string/nav_search" />
     <item
-        android:icon="@drawable/baseline_face_black_18dp"
+        android:icon="@drawable/baseline_insert_emoticon_black_24dp"
         android:title="@string/nav_profile" />
 </menu>
