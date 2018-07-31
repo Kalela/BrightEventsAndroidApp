@@ -1,7 +1,9 @@
-package com.andela.philskiiiwalker.brighteventsandroidapp;
+package com.andela.philskiiiwalker.brighteventsandroidapp.home;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.andela.philskiiiwalker.brighteventsandroidapp.R;
 
 public class MainActivity extends AppCompatActivity {
 
