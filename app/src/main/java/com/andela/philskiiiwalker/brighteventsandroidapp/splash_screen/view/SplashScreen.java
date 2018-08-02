@@ -4,8 +4,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
+
 import com.andela.philskiiiwalker.brighteventsandroidapp.R;
-import com.andela.philskiiiwalker.brighteventsandroidapp.home.MainActivity;
 import com.andela.philskiiiwalker.brighteventsandroidapp.login.LoginActivity;
 
 public class SplashScreen extends AppCompatActivity {

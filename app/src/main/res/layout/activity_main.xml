@@ -6,34 +6,10 @@
     android:background="#fafafa"
     tools:context=".home.MainActivity">
 
-        <TextView
-            android:id="@+id/homeTitleTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="230dp"
-            android:text="@string/app_title"
-            android:textColor="@color/bright_events_green"
-            android:textSize="20sp"
-            tools:layout_editor_absoluteX="151dp"
-            tools:layout_editor_absoluteY="229dp" />
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/sloganTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/homeTitleTextView"
-            android:layout_centerHorizontal="true"
-            android:text="@string/slogan" />
-
-        <Button
-            android:id="@+id/signUpButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="131dp"
-            android:text="@string/sign_up_button_text" />
+    </android.support.v7.widget.RecyclerView>
 
 </RelativeLayout>
