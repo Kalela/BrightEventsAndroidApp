@@ -4,14 +4,18 @@
 
     <item
         android:icon="@drawable/baseline_calendar_today_black_24dp"
-        android:title="@string/nav_all_events" />
+        android:title="@string/nav_all_events"
+        android:id="@+id/navbarAllEventsMenuItem"/>
     <item
         android:icon="@drawable/baseline_date_range_black_24dp"
-        android:title="@string/nav_my_events" />
+        android:title="@string/nav_my_events"
+        android:id="@+id/navbarMyEventsMenuItem"/>
     <item
         android:icon="@drawable/baseline_search_black_24"
-        android:title="@string/nav_search" />
+        android:title="@string/nav_search"
+        android:id="@+id/navbarSearchEventsMenuItem"/>
     <item
         android:icon="@drawable/baseline_insert_emoticon_black_24dp"
-        android:title="@string/nav_profile" />
+        android:title="@string/nav_profile"
+        android:id="@+id/navbarProfileMenuItem"/>
 </menu>
