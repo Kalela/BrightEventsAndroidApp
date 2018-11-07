@@ -1,6 +1,6 @@
 *.iml
 .gradle
-/local.properties
+/local.properties*
 .DS_Store
 /build
 /captures
@@ -11,3 +11,4 @@ instapk.log*
 instapk.properties
 .hgignore
 .idea/instapk.xml
+*.properties
