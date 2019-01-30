@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.andela.philskiiiwalker.brighteventsandroidapp">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,9 +18,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".home.MainActivity"></activity>
-        <activity android:name=".registration.view.SignUpActivity"></activity>
-        <activity android:name=".login.LoginActivity"></activity>
+        <activity android:name=".home.MainActivity" />
+        <activity android:name=".registration.view.SignUpActivity" />
+        <activity android:name=".login.LoginActivity" />
     </application>
 
 </manifest>
