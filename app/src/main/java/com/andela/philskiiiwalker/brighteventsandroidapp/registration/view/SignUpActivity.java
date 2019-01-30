@@ -14,6 +14,7 @@ import com.andela.philskiiiwalker.brighteventsandroidapp.R;
 import com.andela.philskiiiwalker.brighteventsandroidapp.login.LoginActivity;
 import com.andela.philskiiiwalker.brighteventsandroidapp.registration.contract.RegisterContract;
 import com.andela.philskiiiwalker.brighteventsandroidapp.registration.presenter.RegisterPresenter;
+
 import com.andela.philskiiiwalker.brighteventsandroidapp.util.services.RetrofitInjector;
 
 public class SignUpActivity extends AppCompatActivity implements RegisterContract.RegisterView {

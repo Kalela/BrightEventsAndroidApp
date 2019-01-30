@@ -5,8 +5,8 @@ import android.util.Log;
 
 import com.andela.philskiiiwalker.brighteventsandroidapp.registration.contract.RegisterContract;
 import com.andela.philskiiiwalker.brighteventsandroidapp.registration.model.Users;
-import com.andela.philskiiiwalker.brighteventsandroidapp.util.services.AuthService;
 
+import com.andela.philskiiiwalker.brighteventsandroidapp.util.services.AuthService;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
