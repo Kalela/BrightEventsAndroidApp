@@ -30,8 +30,6 @@ public class RegisterPresenter {
                 .setUsername(username)
                 .setEmail(email).build();
 
-        Log.d("check", "registerUser: user model = " + user.getUsername());
-
         if (password == confirmPassword) {
             authService.registerUser(user).enqueue(new Callback<Users>() {
                 @Override

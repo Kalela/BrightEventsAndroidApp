@@ -21,7 +21,7 @@ public class RetrofitInjector {
     }
 
     public static AuthService provideUsersService() {
-        return provideRetrofit("https://bright-events-api-.herokuapp.com/api/v2/auth/")
+        return provideRetrofit("https://bright-events.herokuapp.com/api/")
                 .create(AuthService.class);
     }
 }

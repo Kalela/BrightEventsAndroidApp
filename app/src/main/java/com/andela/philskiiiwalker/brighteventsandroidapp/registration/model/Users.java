@@ -4,8 +4,8 @@ import com.google.gson.annotations.SerializedName;
 
 public class Users {
 
-    @SerializedName("username")
-    private String username;
+    @SerializedName("name")
+    private String name;
 
     @SerializedName("email")
     private String email;
@@ -17,18 +17,18 @@ public class Users {
     private String confirmPassword;
 
     public Users(String username, String email, String password, String confirmPassword) {
-        setUsername(username);
+        setName(username);
         setEmail(email);
         setPassword(password);
         setConfirmPassword(confirmPassword);
     }
 
-    public String getUsername() {
-        return username;
+    public String getName() {
+        return name;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getEmail() {
