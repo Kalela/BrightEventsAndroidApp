@@ -31,6 +31,7 @@ public class RegisterPresenter {
                 .setEmail(email).build();
 
         if (password == confirmPassword) {
+            view.showProgressBar(true);
             authService.registerUser(user).enqueue(new Callback<Users>() {
                 @Override
                 public void onResponse(@NonNull Call<Users> call, @NonNull Response<Users> response) {
@@ -38,6 +39,7 @@ public class RegisterPresenter {
                         view.navigateSuccess();
                     } else {
                         view.showErrorMessage();
+                        view.showProgressBar(false);
                     }
 
                 }
@@ -45,6 +47,7 @@ public class RegisterPresenter {
                 @Override
                 public void onFailure(@NonNull Call<Users> call, @NonNull Throwable t) {
                     view.showErrorMessage();
+                    view.showProgressBar(false);
                 }
             });
         } else {

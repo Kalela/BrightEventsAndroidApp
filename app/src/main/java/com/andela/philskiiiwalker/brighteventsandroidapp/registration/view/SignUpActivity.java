@@ -25,6 +25,7 @@ public class SignUpActivity extends AppCompatActivity implements RegisterContrac
     EditText emailEditText;
     EditText passwordEditText;
     EditText confirmPasswordEditText;
+    private View mProgressView;
 
 
     @Override
@@ -39,6 +40,7 @@ public class SignUpActivity extends AppCompatActivity implements RegisterContrac
         passwordEditText = findViewById(R.id.signupPasswordEditText);
         confirmPasswordEditText = findViewById(R.id.signupConfirmPasswordEditText);
 
+        mProgressView = findViewById(R.id.signup_progress_bar);
 
         final RegisterPresenter registerPresenter = new RegisterPresenter(this,
                 RetrofitInjector.provideUsersService());
@@ -91,5 +93,16 @@ public class SignUpActivity extends AppCompatActivity implements RegisterContrac
     @Override
     public void showErrorMessage() {
         Toast.makeText(this, "Something went wrong. Please check your connection.", Toast.LENGTH_LONG).show();
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        showProgressBar(false);
+    }
+
+    @Override
+    public void showProgressBar(Boolean show) {
+        mProgressView.setVisibility(show ? View.VISIBLE : View.GONE);
     }
 }

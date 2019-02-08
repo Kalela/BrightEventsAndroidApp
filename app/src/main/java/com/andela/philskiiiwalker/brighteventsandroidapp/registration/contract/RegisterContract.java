@@ -9,5 +9,7 @@ public interface RegisterContract {
         void navigateSuccess();
 
         void showErrorMessage();
+
+        void showProgressBar(Boolean bool);
     }
 }
